@@ -1,1 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navigationbar {
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
